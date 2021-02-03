@@ -54,7 +54,7 @@ class SearchTab extends React.Component{
                   However, remember that the BooksAPI.search method DOES search by title or author. So, don't worry if
                   you don't find a specific author or title. Every search is limited by search terms.
                 */}
-                <input  placeholder="Search by title or author"
+                <input  placeholder="Search by title"
                  value={this.state.query}
                  type="text"
                  onChange={(event)=>{this.search(event.target.value)     }}/>
